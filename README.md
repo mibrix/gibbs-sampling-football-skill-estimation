@@ -68,8 +68,24 @@ Here's a snapshot of the final skill estimates for Serie A teams:
 | 1   | Juventus   | 25.95          | 1.13                       | 90            |
 | 2   | Napoli     | 28.60          | 1.17                       | 79            |
 | 3   | Atalanta   | 29.96          | 1.80                       | 69            |
-| ... | ...        | ...            | ...                        | ...           |
+| 4   | Inter      | 29.14          | 1.21                       | 69            |
+| 5   | Milan      | 28.98          | 1.34                       | 68            |
+| 6   | Roma       | 29.53          | 1.54                       | 66            |
+| 7   | Torino     | 28.56          | 1.15                       | 63            |
+| 8   | Lazio      | 27.28          | 0.98                       | 59            |
+| 9   | Sampdoria  | 26.82          | 1.13                       | 53            |
+| 10  | Bologna    | 29.47          | 1.21                       | 44            |
+| 11  | Sassuolo   | 25.66          | 1.15                       | 43            |
+| 12  | Udinese    | 28.53          | 1.21                       | 43            |
+| 13  | SPAL       | 27.06          | 1.03                       | 42            |
+| 14  | Parma      | 25.41          | 0.99                       | 41            |
+| 15  | Cagliari   | 26.58          | 0.93                       | 41            |
+| 16  | Fiorentina | 24.24          | 0.85                       | 41            |
+| 17  | Genoa      | 25.13          | 1.10                       | 38            |
+| 18  | Empoli     | 27.94          | 1.13                       | 38            |
+| 19  | Frosinone  | 25.53          | 0.89                       | 25            |
 | 20  | Chievo     | 26.17          | 0.98                       | 17            |
+
 
 ---
 
@@ -80,6 +96,36 @@ The skill model was also applied to the **Euro 2024** football games, using data
 * **Top Team:** The model correctly identified **Spain** as the team with the highest skill, aligning with their victory in the tournament.
 * **Overall Fit:** While the top team was accurate, the model's overall skill rankings for all teams did not perfectly match the official tournament results. This suggests that while powerful, such models are simplifications of complex real-world dynamics.
 * **Prediction Accuracy:** When used for prediction, the model achieved a **55.9% accuracy** on the Euro 2024 dataset.
+## Euro 2024 Analysis Results
+
+The resulting skill estimates are roughly aligned with the actual tournament outcomes.
+
+| Team           | Expected Skill | Skill Volatility (Std Dev) |
+| :------------- | :------------- | :------------------------- |
+| Spain          | 30.20          | 2.52                       |
+| Germany        | 27.87          | 2.18                       |
+| Switzerland    | 27.82          | 2.22                       |
+| England        | 27.14          | 2.17                       |
+| France         | 27.01          | 1.95                       |
+| Portugal       | 26.61          | 1.92                       |
+| Netherlands    | 26.42          | 2.05                       |
+| Georgia        | 25.20          | 2.11                       |
+| Italy          | 25.13          | 2.15                       |
+| Turkey         | 25.04          | 1.68                       |
+| Austria        | 25.03          | 1.79                       |
+| Slovenia       | 25.00          | 2.89                       |
+| Belgium        | 24.87          | 1.64                       |
+| Croatia        | 24.64          | 2.62                       |
+| Hungary        | 24.51          | 1.90                       |
+| Ukraine        | 24.22          | 1.88                       |
+| Slovakia       | 23.79          | 1.91                       |
+| Serbia         | 23.68          | 2.43                       |
+| Romania        | 23.59          | 1.58                       |
+| Denmark        | 23.17          | 2.38                       |
+| Scotland       | 23.13          | 2.24                       |
+| Albania        | 22.75          | 2.14                       |
+| Poland         | 22.47          | 1.92                       |
+| Czech Republic | 22.15          | 2.07                       |
 
 ---
 
