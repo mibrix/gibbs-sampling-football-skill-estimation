@@ -100,33 +100,32 @@ The skill model was also applied to the **Euro 2024** football games, using data
 
 The resulting skill estimates are roughly aligned with the actual tournament outcomes.
 
-| Team           | Expected Skill | Skill Volatility (Std Dev) |
-| :------------- | :------------- | :------------------------- |
-| Spain          | 30.20          | 2.52                       |
-| Germany        | 27.87          | 2.18                       |
-| Switzerland    | 27.82          | 2.22                       |
-| England        | 27.14          | 2.17                       |
-| France         | 27.01          | 1.95                       |
-| Portugal       | 26.61          | 1.92                       |
-| Netherlands    | 26.42          | 2.05                       |
-| Georgia        | 25.20          | 2.11                       |
-| Italy          | 25.13          | 2.15                       |
-| Turkey         | 25.04          | 1.68                       |
-| Austria        | 25.03          | 1.79                       |
-| Slovenia       | 25.00          | 2.89                       |
-| Belgium        | 24.87          | 1.64                       |
-| Croatia        | 24.64          | 2.62                       |
-| Hungary        | 24.51          | 1.90                       |
-| Ukraine        | 24.22          | 1.88                       |
-| Slovakia       | 23.79          | 1.91                       |
-| Serbia         | 23.68          | 2.43                       |
-| Romania        | 23.59          | 1.58                       |
-| Denmark        | 23.17          | 2.38                       |
-| Scotland       | 23.13          | 2.24                       |
-| Albania        | 22.75          | 2.14                       |
-| Poland         | 22.47          | 1.92                       |
-| Czech Republic | 22.15          | 2.07                       |
-
+| Team           | Expected Skill | Skill Volatility (Std Dev) | Actual Final Place |
+| :------------- | :------------- | :------------------------- | :----------------- |
+| Spain          | 30.20          | 2.52                       | Champion           |
+| Germany        | 27.87          | 2.18                       | Quarter-finalist   |
+| Switzerland    | 27.82          | 2.22                       | Quarter-finalist   |
+| England        | 27.14          | 2.17                       | Runner-up          |
+| France         | 27.01          | 1.95                       | Semi-finalist      |
+| Portugal       | 26.61          | 1.92                       | Round of 16        |
+| Netherlands    | 26.42          | 2.05                       | Semi-finalist      |
+| Georgia        | 25.20          | 2.11                       | Quarter-finalist   |
+| Italy          | 25.13          | 2.15                       | Round of 16        |
+| Turkey         | 25.04          | 1.68                       | Quarter-finalist   |
+| Austria        | 25.03          | 1.79                       | Quarter-finalist   |
+| Slovenia       | 25.00          | 2.89                       | Round of 16        |
+| Belgium        | 24.87          | 1.64                       | Round of 16        |
+| Croatia        | 24.64          | 2.62                       | Group Stage        |
+| Hungary        | 24.51          | 1.90                       | Group Stage        |
+| Ukraine        | 24.22          | 1.88                       | Group Stage        |
+| Slovakia       | 23.79          | 1.91                       | Round of 16        |
+| Serbia         | 23.68          | 2.43                       | Group Stage        |
+| Romania        | 23.59          | 1.58                       | Round of 16        |
+| Denmark        | 23.17          | 2.38                       | Round of 16        |
+| Scotland       | 23.13          | 2.24                       | Group Stage        |
+| Albania        | 22.75          | 2.14                       | Group Stage        |
+| Poland         | 22.47          | 1.92                       | Group Stage        |
+| Czech Republic | 22.15          | 2.07                       | Group Stage        |
 ---
 
 ## 5. Potential Applications
