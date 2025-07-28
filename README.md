@@ -10,7 +10,7 @@ The primary method for skill estimation in this project is **Gibbs Sampling**. T
 
 The process is straightforward:
 
-1.  The model starts with an initial guess for each player's skill.
+1.  The model starts with an initial guess for each player's skill (which is identical for all the players).
 2.  Then, in a loop, for each match:
     * It first samples how the match outcome ($t$) would look based on the current skill estimates for the players.
     * Next, using that outcome sample, it refines the skill estimates for both players, ensuring the winner's skill is estimated higher than the loser's.
